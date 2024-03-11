@@ -1,0 +1,131 @@
+a{
+  font-size: 15px;
+
+}
+.menu-list a{
+  
+  display: inline-block;
+  font-weight: 500;
+  color: #222;
+  margin-right: 20px;
+  position: relative;
+}
+
+
+.btn--login{
+  height: 44px;
+  padding: 10px 20px;
+  background: transparent;
+  border: 1.50px solid var(--bg);
+  border-radius: var(--border-radius-inicial);
+  cursor: pointer;
+}
+.btn--login a{
+  display: inline-block;
+  color: #222;
+  font-weight: 400;
+}
+
+.sign-up{
+display: flex;
+align-items: center;
+  background-color: var(--bg);
+  border: var(--border-inicial);
+  border-radius: var(--border-radius-inicial);
+  padding: 10px 32px;
+  height: 44px;
+
+}
+.sign-up a .icon-user{
+  width: 24px;
+  height: 24px;
+}
+.sign-up a{
+  display: flex;
+  gap: 0px 4px;
+  align-items: center;
+  color: azure;
+  font-weight: normal;
+}
+
+a.explore{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 8px;
+  background: var(--bg);
+  border-radius: var(--border-radius-inicial);
+  color: azure;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 32px;
+
+}
+
+button.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: var(--bg);
+  right: 5px;
+  top: 4.5px;
+  width: 30px;
+  height: 30px;
+  border-radius: var(--border-radius-inicial);
+  cursor: pointer;
+}
+button.search .icon-search{
+  width: 22px;
+  height: 22px;
+  stroke: azure;
+}
+
+
+.icon-destino{
+  width: 20px;
+  height: 20px;
+  stroke: var(--bg);
+}
+
+.list-destinos{
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+  padding: 0px 4px;
+}
+
+.list-destinos li{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+}
+
+.list-destinos li input {
+  display: block;
+  border: var(--border-inicial);
+  border-radius: var(--border-radius-inicial);
+  padding: 8px 10px;
+  width: 200px;
+}
+.list-destinos li label{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0px 4px;
+  color: azure;
+ 
+}
+.list-destinos label span {
+  display: flex;
+  color: azure;
+}
+span.enviar-email{
+  display: flex;
+}
+span.enviar-email .icon-email.icon-search{
+  width: 22px;
+  height: 22px;
+  stroke: azure;
+}

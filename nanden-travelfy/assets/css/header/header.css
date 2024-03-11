@@ -1,0 +1,108 @@
+
+.container-header{
+  background: linear-gradient(to right top, rgba(255, 255, 255, 0), rgba(177, 232, 240, 0)), url("/assets/img/imag-principal1.jpg");
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right bottom;
+  
+ padding-bottom: 90px;
+}
+header{
+  background-image: linear-gradient(to right , #ffffff, #eee);
+  color: #222;
+position: fixed;
+top: 0;
+z-index: 10000;
+width: 100%;
+
+}
+
+image:not(:first-child){
+  
+}
+
+div.header{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 4%;
+  /* background: linear-gradient(to right, #eee, #fff); */
+
+  /* z-index: 1000;
+  */
+}
+
+.logo img{
+  max-width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap:0px 20px;
+  margin-right: 20px;
+  color: inherit;
+}
+
+.menu-list a{
+  transition: all .4s ease;
+}
+.menu-list a::before{
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 4px;
+  background-color: var(--input-focus);
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+}
+.menu-list a::after{
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 4px;
+  background-color: var(--bg);
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  transition: all .4s;
+}
+.menu-list a:hover::after,
+.menu-list a.ativo::after{
+  width: 100%;
+  
+  
+  
+}
+
+
+
+.user{
+  display: flex;
+  gap: 0px 30px;
+}
+
+
+
+.conteudo-principal{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 20px;
+}
+
+.section-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 80px;
+}
+

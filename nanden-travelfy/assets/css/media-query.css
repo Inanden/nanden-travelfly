@@ -1,0 +1,29 @@
+@media screen and (max-width: 70em) {
+
+  nav.nav-bar ul{
+    display: none;
+  }
+
+
+  nav.nav-bar ul.ative{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    background-color: red;
+    width: 100%;
+
+  }
+  
+  nav.nav-bar .user{
+    display: none;
+  }
+  nav.nav-bar .menu-burg{
+    display: block;
+  
+  }
+
+  .icon-menu{
+    stroke: #fff;
+    cursor: pointer;
+  }
+}
